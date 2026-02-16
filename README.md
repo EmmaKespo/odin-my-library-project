@@ -1,1 +1,2 @@
 # odin-my-library-project
+the library project is and assignment in the odin project we are to create a functional web application that tracks a personal library allowing users to add, remove, and update the read status of the book
