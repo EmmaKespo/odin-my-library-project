@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library - Odin project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Library</h1>
+
+    <button id="new-book-btn">Add New Book</button>
+
+    <form id="book-form" class="hidden" >
+        <input type="text" id="tittle" placeholder="Tittle" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="number" id="pages" placeholder="pages" required>
+        <label>
+        <input type="checkbox" id="read-status">
+        </label>
+            <button type="submit" id="submit-btn">Add </button>
+            <button type="button" id="close-btn">Cancel</button>
+        
+    </form>
+    <div class="library-container"></div>
+    <script src="script.js"></script>
+
+</body>
+</html>
